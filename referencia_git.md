@@ -1,5 +1,22 @@
 # Pequeña referencia acerca de Git y GitHub
 
+**índice**
+
+- [Pequeña referencia acerca de Git y GitHub](#)
+	- [Configurar Git](#)
+		- [Configuración básica](#)
+			- [Escoger editor de texto por defecto que utilizará Git](#)
+			- [Escoger herramientas para resolver problemas de conflictos](#)
+	- [Iniciar un repositorio desde un PC hacia GitHub](#)
+	- [Iniciar o editar un repositorio desde el GitHub hacia un PC](#)
+	- [Comandos:](#)
+		- [Generales](#)
+		- [Repositorios remotos](#)
+		- [Ramas](#)
+		- [Stash](#)
+		- [Tag:](#)
+		- [Páginas con información](#)
+
 
 ## Configurar Git
 
