@@ -1,5 +1,7 @@
 # Pequeña referencia acerca de Git y GitHub
 
+[TOC]
+
 ## Configurar Git
 
 
