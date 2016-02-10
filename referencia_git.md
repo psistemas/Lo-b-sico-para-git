@@ -1,6 +1,6 @@
 # Pequeña referencia acerca de Git y GitHub
 
-## **índice**
+## **Índice**
 
 - [Pequeña referencia acerca de Git y GitHub](#)
 	- [Configurar Git](#)
