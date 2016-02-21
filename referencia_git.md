@@ -1,13 +1,12 @@
-# Pequeña referencia acerca de Git y GitHub
+# Pequeña referencia acerca de ***Git*** y ***GitHub***
 
 
-## Configurar Git
+## Configurar ***Git***
 
 ### Configuración básica
-
 ``` bash
 	git config --global user.name "Usuario"				# Nombre de usuario
-	git config --global user.email ejemplo@ejemplo.com 	# e-mail
+	git config --global user.email ejemplo@ejemplo.com 		# e-mail
 ```
 
 
@@ -15,7 +14,7 @@
 
 ```bash
 	git config --global core.editor "atom --wait" 	# Atom
-	git config --global core.editor "nano"			# Nano
+	git config --global core.editor "nano"		# Nano
 ```
 
 
@@ -315,10 +314,10 @@ Borra una rama. Utilizando la bandera `-d` eliminamos la rama unicamente si esta
 ___
 
 
-**Nota**: Las rams locales no se sincrinizan con las ramas del repositorio remoto.
+**Nota**: Las rams locales no se sincronizan con las ramas del repositorio remoto.
 
 ```bash
-	git checkout --track origin/arreglos-varios
+	git checkout --track origin/otra-rama
 ```
 Generalmente cuando uno clona un repositorio remoto únicamente se comienza a seguir los cambios de *master* que viene siendo la rama o raíz principal del proyecto. para realizarle el seguimiento a una rama remota adicional se utiliza el este comando.
 ___
@@ -394,6 +393,16 @@ ___
 Subir tags al repositorio.
 
 * * *
+<br>
+
+
+## Varios
+
+### Remover archivos que se encuentran en el repositorio pero ahora se encuentarn listados en el `.gitignore`.
+```
+git ls-files --ignored --exclude-standard | xargs git rm 		# Eliminar
+git ls-files --ignored --exclude-standard | xargs git rm --cached	# Dejar de seguir
+```
 
 <br>
 ### Páginas con información
