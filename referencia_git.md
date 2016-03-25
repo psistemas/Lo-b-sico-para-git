@@ -317,18 +317,10 @@ ___
 **Nota**: Las rams locales no se sincronizan con las ramas del repositorio remoto.
 
 ```bash
-	git checkout --track origin/otra-rama
+	git fetch
+	git branch --track branch-name origin/branch-name
 ```
 Generalmente cuando uno clona un repositorio remoto únicamente se comienza a seguir los cambios de *master* que viene siendo la rama o raíz principal del proyecto. para realizarle el seguimiento a una rama remota adicional se utiliza el este comando.
-___
-
-
-```bash
-	git fetch <branch>
-    	o
-    git checkout -t origin/<branch>
-```
-Traer una rama en específica.
 ___
 
 ```bash
