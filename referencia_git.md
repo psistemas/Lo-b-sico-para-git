@@ -247,6 +247,7 @@ Deshacer el último commit. Creo que borra los cambios del `commit` a revertir.
 ---
 
 <br>
+
 ### Repositorios remotos
 
 ```bash
