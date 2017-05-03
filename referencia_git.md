@@ -278,6 +278,7 @@ Borrar un repositorio remoto (de mi PC).
 - - -
 
 <br>
+
 ### Ramas
 
 ```bash
@@ -332,6 +333,7 @@ Borrar una rama del repositorio remoto.
 - - -
 
 <br>
+
 ### Stash
 Información sobre que es rebase & stash [aquí](http://codehero.co/rebase-y-stash/)
 
@@ -364,6 +366,7 @@ ___
 - - -
 
 <br>
+
 ### Tag:
 
 ```bash
@@ -398,6 +401,7 @@ git ls-files --ignored --exclude-standard | xargs git rm --cached	# Dejar de seg
 ```
 
 <br>
+
 ### Páginas con información
 
 * **Ignorar el salto de línea en Git**: http://help.github.com/line-endings/
