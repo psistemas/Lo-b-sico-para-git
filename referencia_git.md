@@ -96,7 +96,7 @@ Trae y/o actualiza el contenido desde el repositorio en **GitHub**.
 * Es recomendable hacer `pull` antes de hacer `push`, para de esta manera tener la copia más reciente del repositorio remoto, y evitar confilctos.
 
 
-##Iniciar o editar un repositorio desde el GitHub hacia un PC
+## Iniciar o editar un repositorio desde el GitHub hacia un PC
 * Se crea un repositorio en **GitHub**. Luego se copia la **URL** del repositorio creado.
 
 * En la carpeta donde quiero almacenar mi proyecto digito:
